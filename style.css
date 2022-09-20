@@ -5,11 +5,14 @@ body {
     margin: 0;
     justify-content: center;
     align-content: center;
+    border-top: solid 0.5em hsl(26, 87%, 67%);
+    border-left: solid 0.5em hsl(26, 87%, 67%);
+
 }
 
 #logo {
     color: #3f6c51;
-    font-size: 7em;
+    /* font-size: 7em; */
     font-family: "Slabo 13px";
     letter-spacing: .5em;
     display: flex;
@@ -26,12 +29,15 @@ body {
     flex-wrap: wrap;
     justify-content: right;
     gap: 1em;
+    padding: 1em;
 }
 
 .nav-items li {
     list-style: none;
-    margin: 1em;
-    width: 15vw;
+    
+    padding: 1em;
+    width:120px;
+    border:1px solid #f17518;
 
 }
 
@@ -45,8 +51,8 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    color: azure;
-    font-size: 5em;
+    /* color: azure; */
+    font-size: 4vw;
 }
 
 .hero-image p{
@@ -55,17 +61,18 @@ body {
     color: #f17518;
     opacity: 0;
     transform: scale(0);
-    transition: 0.9s;
+    border: 1px solid black;
+    transition: 1.4s;
 }
 
 .hero-image:hover p{
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1.9);
 }
 
 
 .ethos { 
-    font-size: 5em;
+    /* font-size: 5em; */
     font-family: "Slabo 13px";
     color: #3f6c51;
     gap: 1px;
