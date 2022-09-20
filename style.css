@@ -93,8 +93,26 @@ li:hover {
 }
 
 .testimonials{
+    
+}
+
+.reviews{
     display:grid;
-    column-count: 1fr;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 5fr 11fr;
+    grid-template-rows: 3fr 2fr 4fr;
+    justify-content: center;
+    
+}
+
+.reviews p{
+    display: flex;
+    flex-wrap: wrap;
+    border:3px solid #3f6c51;
+    
+    
 }
 
 #orange{
