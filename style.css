@@ -12,7 +12,7 @@ body {
 
 #logo {
     color: #3f6c51;
-    /* font-size: 7em; */
+    font-size: 5vw;
     font-family: "Slabo 13px";
     letter-spacing: .5em;
     display: flex;
