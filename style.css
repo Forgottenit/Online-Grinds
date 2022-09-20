@@ -1,0 +1,105 @@
+body{
+    padding:0;
+    margin:0;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 1em;
+}
+
+.nav-items li{
+    list-style: none;
+    margin: 1em;
+    width:15vw;
+
+}
+
+
+
+.hero-image{
+    background-image: url("images/download.jpg");
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: azure;
+    font-size: 5em;
+}
+
+
+
+.ethos{
+
+}
+
+
+.junior{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+
+.j1, .j2, .j3{
+    height: 300px;
+    width: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    
+    border: 3px solid black;
+    
+
+}
+
+.j1-img{
+    background-image: url("images/bag1.jpg");
+    background-position: center;
+    height: 50%;
+    width: 100%;
+    }
+.j1-txt{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.j2-img{
+    background-image: url("images/bag2.jpg");
+    background-position: center;
+    height: 50%;
+    width: 100%;
+    }
+.j2-txt{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.j3-img{
+    background-image: url("images/apple.jpg");
+    background-position:top;
+    height: 50%;
+    width: 100%;
+    }
+.j3-txt{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
