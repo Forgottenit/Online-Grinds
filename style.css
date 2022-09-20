@@ -20,6 +20,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 8px;
+    text-decoration:underline;
 
 
 }
@@ -40,6 +41,13 @@ body {
     border:1px solid #f17518;
 
 }
+
+li:hover {
+    color: #f17518;
+    font-size: 150%;
+    transition: ease-in-out 2s;
+    justify-content: right;
+    cursor: pointer;}
 
 
 
@@ -154,28 +162,6 @@ body {
     align-items: center;
 }
 
-@media screen and (min-width:490px) {
-
-
-    li:hover {
-        color: #f17518;
-        font-size: 150%;
-        transition: ease-in-out 2s;
-        justify-content: right;
-        cursor: pointer;
-        cursor: ;
-    }
-
-    .material-icons.md-100:hover {
-
-
-        font-size: 150%;
-        transition: ease-in-out 2s;
-        
-        /* justify-content: right; */
-    }
-
-}
 
 
 
