@@ -1,31 +1,47 @@
-body{
-    padding:0;
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Dirt&family=Rubik+Iso&family=Rubik+Marker+Hatch&family=Slabo+13px&family=Source+Sans+3:wght@300;600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
     justify-content: center;
     align-content: center;
 }
 
-.nav-items{
+#logo {
+    color: #3f6c51;
+    font-size: 7em;
+    font-family: "Slabo 13px";
+    letter-spacing: .5em;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 0;
+    margin: 8px;
+
+
+}
+
+.nav-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     gap: 1em;
 }
 
-.nav-items li{
+.nav-items li {
     list-style: none;
     margin: 1em;
-    width:15vw;
+    width: 15vw;
 
 }
 
 
 
-.hero-image{
+.hero-image {
     background-image: url("images/download.jpg");
     background-position: center;
     background-size: cover;
-    height:400px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -33,42 +49,67 @@ body{
     font-size: 5em;
 }
 
+.hero-image p{
+    
+    font-family: "Slabo 13px";
+    color: #f17518;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.9s;
+}
 
-
-.ethos{
-
+.hero-image:hover p{
+    opacity: 1;
+    transform: scale(1);
 }
 
 
-.junior{
+.ethos { 
+    font-size: 5em;
+    font-family: "Slabo 13px";
+    color: #3f6c51;
+    gap: 1px;
+    padding: 5px;
+
+}
+
+#orange{
+    color:#f17518;
+}
+
+
+.junior {
     display: flex;
     flex-wrap: wrap;
-    gap:2em;
+    gap: 2em;
     justify-content: center;
     align-items: center;
-    align-content:center;
+    align-content: center;
 }
 
-.j1, .j2, .j3{
+.j1,
+.j2,
+.j3 {
     height: 300px;
     width: 300px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-items: center;
     justify-content: center;
-    
+
     border: 3px solid black;
-    
+
 
 }
 
-.j1-img{
+.j1-img {
     background-image: url("images/bag1.jpg");
     background-position: center;
     height: 50%;
     width: 100%;
-    }
-.j1-txt{
+}
+
+.j1-txt {
     display: flex;
     height: 50%;
     width: 100%;
@@ -76,13 +117,14 @@ body{
     align-items: center;
 }
 
-.j2-img{
+.j2-img {
     background-image: url("images/bag2.jpg");
     background-position: center;
     height: 50%;
     width: 100%;
-    }
-.j2-txt{
+}
+
+.j2-txt {
     display: flex;
     height: 50%;
     width: 100%;
@@ -90,16 +132,51 @@ body{
     align-items: center;
 }
 
-.j3-img{
+.j3-img {
     background-image: url("images/apple.jpg");
-    background-position:top;
+    background-position: top;
     height: 50%;
     width: 100%;
-    }
-.j3-txt{
+}
+
+.j3-txt {
     display: flex;
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width:490px) {
+
+
+    li:hover {
+        color: #f17518;
+        font-size: 150%;
+        transition: ease-in-out 2s;
+        justify-content: right;
+        cursor: pointer;
+        cursor: ;
+    }
+
+    .material-icons.md-100:hover {
+
+
+        font-size: 150%;
+        transition: ease-in-out 2s;
+        
+        /* justify-content: right; */
+    }
+
+}
+
+
+
+.material-icons.md-100 {
+
+    font-size: 100px;
+    white-space: normal;
+    position: relative;
+    display: block;
+
 }
