@@ -307,14 +307,14 @@ li:hover {
     display: flex;
     position: relative;
     text-align: center;
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 80%;
     border: 3px solid black;
     justify-content: center;
     
-    margin-top:300px;
+    margin-top:30px;
     /* box-sizing: border-box; */
-    background: linear-gradient(145deg,#3f6c51,#f17518 );
+    background: linear-gradient(145deg,rgba(63, 108, 81, .3),rgba(241, 117, 24, .3) );
 
 
 }
