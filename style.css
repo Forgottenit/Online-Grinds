@@ -73,7 +73,7 @@ li:hover {
     color: #f17518;
     opacity: 0;
     transform: scale(0);
-    border: 1px solid black;
+    
     transition: 1.4s;
 }
 
@@ -163,46 +163,58 @@ li:hover {
 .j1-img {
     background-image: url("images/bag1.jpg");
     background-position: center;
-    height: 50%;
+    height: 40%;
     width: 100%;
 }
 
 .j1-txt {
     display: flex;
-    height: 50%;
+    height: 40%;
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .l1-img {
     background-image: url("images/bag2.jpg");
     background-position: center;
-    height: 50%;
+    height: 40%;
     width: 100%;
 }
 
 .l1-txt {
     display: flex;
-    height: 50%;
+    height: 40%;
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .t1-img {
     background-image: url("images/apple.jpg");
     background-position: top;
-    height: 50%;
+    height: 40%;
     width: 100%;
 }
 
 .t1-txt {
     display: flex;
-    height: 50%;
+    height: 40%;
     width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+.jbutton, .lbutton, .tbutton{
+    display:flex;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: center;
+    font-weight: 600;
+    
 }
 
 .footer{
@@ -213,7 +225,7 @@ li:hover {
     color: #f17518;
     justify-content: center;
     align-items:center;
-    margin: 0;
+    margin-top: 30px;
     padding: 0;
 }
 
