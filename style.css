@@ -114,6 +114,13 @@ li:hover {
     
 }
 
+#review1{
+    background-color: rgb(251, 101, 181);
+}
+#review2{background-color: #f3fb65;}
+#review3{background-color: rgb(158, 255, 129);}
+#review4{background-color: rgb(157, 224, 255);}
+
 #orange{
     color:#f17518;
 }
