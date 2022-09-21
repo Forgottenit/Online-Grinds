@@ -59,6 +59,7 @@ li:hover {
     background-image: url("images/download.jpg");
     background-position: center;
     background-size: cover;
+    filter: brightness(1.2);
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -161,7 +162,7 @@ li:hover {
 }
 
 .j1-img {
-    background-image: url("images/bag1.jpg");
+    background-image: url("images/bag2.jpg");
     background-position: center;
     height: 40%;
     width: 100%;
@@ -177,7 +178,7 @@ li:hover {
 }
 
 .l1-img {
-    background-image: url("images/bag2.jpg");
+    background-image: url("images/bag1.jpg");
     background-position: center;
     height: 40%;
     width: 100%;
@@ -243,5 +244,44 @@ li:hover {
     display: flex;
     font-size: 3em;
     gap:3vw;
+    
+}
+
+.jform-background{
+    
+    background-image: url("images/bag2.jpg");
+    background-size:cover;
+    background-position: center;
+    opacity: .5;
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.lform-background{
+    
+    background-image: url("images/bag1.jpg");
+    background-size:cover;
+    background-position: center;
+    opacity: .5;
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.tform-background{
+    
+    background-image: url("images/apple.jpg");
+    background-size:cover;
+    background-position: center;
+    opacity: .5;
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     
 }
