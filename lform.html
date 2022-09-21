@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1 id="logo">DOCTRINA - online Grinds</h1>
-        
-        
+
+
         <nav>
             <ul class="nav-items">
                 <li><a href="index.html">HOME</a></li>
@@ -21,9 +23,126 @@
             </ul>
         </nav>
     </header>
-    <div class="lform-background"><div class="signup-form"><h1>Junior Certificate Grinds<br></h1>
-        <br>
-        <h2>Sign Up<br> next line</h2></div></div>
-   
+    <div class="lform-background">
+
+        <div class="signup-form">
+            <h1>Leaving Cert Grinds</h1>
+            <form>
+                <fieldset class="detail-input">
+                    <legend>Your Details</legend>
+                    <div><label for="fname"> First Name:</label>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required></div>
+                    
+                    <div><label for="lname"> Last Name:</label>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required></div>
+                    
+                        <div> <label for="email"> Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Email Address" required></div>
+                   
+                </fieldset>
+                <br>
+
+
+
+               
+                <fieldset class="form-input">
+                    <legend>Subjects</legend>
+                    <fieldset class="subjects">
+                        <legend>Core Subjects</legend>
+                        <div>
+                            <input type="checkbox" id="irish" name="irish">
+                            <label for="irish">Irish/Gaelige</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="english" name="english">
+                            <label for="english">English</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="maths" name="maths">
+                            <label for="maths">Maths</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="history" name="history">
+                            <label for="history">History</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="business-studies" name="business-studies">
+                            <label for="sbusiness-studies">Business Studies</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="subjects">
+                        <legend>Arts and Humanities</legend>
+                        <div>
+                            <input type="checkbox" id="art" name="art">
+                            <label for="art">Art, Crafts and Design</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="classical" name="classical">
+                            <label for="classical">Classical Studies</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="music" name="music">
+                            <label for="music">Music</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="religion" name="religion">
+                            <label for="religion">Religion</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="business-studies" name="business-studies">
+                            <label for="sbusiness-studies">Business Studies</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="subjects">
+                        <legend>Modern Languages</legend>
+                        <div>
+                            <input type="checkbox" id="french" name="french">
+                            <label for="french">French</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="german" name="german">
+                            <label for="german">German</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="spanish" name="spanish">
+                            <label for="spanish">Spanish</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="italian" name="italian">
+                            <label for="italian">Italian</label>
+                        </div>
+                        
+                    </fieldset>
+
+                    <fieldset class="subjects">
+                        <legend>Applied Sciences</legend>
+                        <div>
+                            <input type="checkbox" id="materials-tech" name="materials-tech">
+                            <label for="materials-tech">Materials Technology</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="metalwork" name="metalwork">
+                            <label for="metalwork">Metalwork</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="tech-graph" name="tech-graph">
+                            <label for="tech-graph">Technical Graphics</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="technology" name="technology">
+                            <label for="technology">Technology</label>
+                        </div>
+                        
+                    </fieldset>
+                </fieldset>
+                <button type="submit"><strong>Submit</strong></button>
+                <input type="reset" value="Reset form">
+            </form>
+        </div>
+    </div>
+
 </body>
+
 </html>
