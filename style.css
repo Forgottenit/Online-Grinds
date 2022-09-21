@@ -314,7 +314,7 @@ li:hover {
     align-items: center;
     margin-top:30px;
     /* box-sizing: border-box; */
-    background: linear-gradient(145deg,rgba(63, 108, 81, .3),rgba(241, 117, 24, .3) );
+    background: linear-gradient(145deg,rgba(79, 185, 122, 0.502),rgba(241, 117, 24, .9) );
 
 
 }

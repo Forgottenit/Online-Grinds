@@ -23,14 +23,28 @@
     </header>
     <div class="tform-background">
         <div class="signup-form">
-            <h1>Junior Certificate Grinds</h1>
+            <h1>Teacher Form Submission</h1>
         <br>
         <form>
+            <fieldset class="detail-input">
+                <legend>Your Details</legend>
+                <div><label for="fname"> First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="First Name" required></div>
+                
+                <div><label for="lname"> Last Name:</label>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" required></div>
+                
+                    <div> <label for="email"> Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required></div>
+               
+            </fieldset>
             <div>
-                    <label for="feedback">How can we improve your experience with us?</label>
+                    <label for="feedback">Enter Your Cv Below</label>
                     <br>
                     <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
                 </div>
+                <button type="submit"><strong>Submit</strong></button>
+                <input type="reset" value="Reset form">
         </form>
 
         </div>
