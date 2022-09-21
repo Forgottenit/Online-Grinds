@@ -247,41 +247,74 @@ li:hover {
     
 }
 
-.jform-background{
-    
-    background-image: url("images/bag2.jpg");
-    background-size:cover;
-    background-position: center;
-    opacity: .5;
+
+
+.jform-background, .lform-background, .tform-background{
+    display: flex;
     height: 900px;
     width: 100%;
     padding: 0;
     margin: 0;
-    
+    position: relative;
+    justify-content: center;
 }
 
-.lform-background{
-    
-    background-image: url("images/bag1.jpg");
-    background-size:cover;
-    background-position: center;
-    opacity: .5;
-    height: 900px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    
-}
-
-.tform-background{
-    
+    .tform-background::before{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    position: absolute;
     background-image: url("images/apple.jpg");
     background-size:cover;
     background-position: center;
     opacity: .5;
-    height: 900px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
     
+}
+
+.jform-background::before{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    background-image: url("images/bag2.jpg");
+    background-size:cover;
+    background-position: center;
+    opacity: .5;
+    
+}
+
+.lform-background::before{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    background-image: url("images/bag1.jpg");
+    background-size:cover;
+    background-position: center;
+    opacity: .5;
+    
+}
+    
+
+
+.signup-form{
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    border: 3px solid black;
+    justify-content: center;
+    
+    margin-top:300px;
+    /* box-sizing: border-box; */
+    background: linear-gradient(145deg,#3f6c51,#f17518 );
+
+
 }
