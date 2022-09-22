@@ -3,10 +3,8 @@
 body {
     padding: 0;
     margin: 0;
-    /* justify-content: center;
-    align-content: center; */
-    border-top: solid 0.5em hsl(26, 87%, 67%);
-    border-left: solid 0.5em hsl(26, 87%, 67%);
+    border-top: solid 0.5em #f4a162;
+    border-left: solid 0.5em rgb(244, 161, 98);
 
 }
 
@@ -20,9 +18,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 8px;
-    text-decoration:underline;
-
-
+    text-decoration: underline;
 }
 
 .nav-items {
@@ -32,18 +28,18 @@ body {
     gap: 1em;
     padding: 1em;
 }
-li, a{
+
+li,
+a {
     text-decoration: none;
     color: #f17518;
     list-style: none;
 }
-.nav-items li{
-    
-    
-    padding: 1em;
-    width:120px;
-    border:1px solid #f17518;
 
+.nav-items li {
+    padding: 1em;
+    width: 120px;
+    border: 1px solid #f17518;
 }
 
 li:hover {
@@ -51,12 +47,11 @@ li:hover {
     font-size: 150%;
     transition: ease-in-out 2s;
     justify-content: right;
-    cursor: pointer;}
-
-
+    cursor: pointer;
+}
 
 .hero-image {
-    background-image: url("images/download.jpg");
+    background-image: url("../images/download.jpg");
     background-position: center;
     background-size: cover;
     filter: brightness(1.2);
@@ -64,76 +59,68 @@ li:hover {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* color: azure; */
     font-size: 4vw;
 }
 
-.hero-image p{
-    
+.hero-image p {
     font-family: "Slabo 13px";
     color: #f17518;
     opacity: 0;
     transform: scale(0);
-    
     transition: 1.4s;
 }
 
-.hero-image:hover p{
+.hero-image:hover p {
     opacity: 1;
     transform: scale(1.9);
 }
 
-
-.ethos, .testimonials { 
-    /* font-size: 5em; */
+.ethos,
+.testimonials {
     font-family: "Slabo 13px";
     color: #3f6c51;
     gap: 1px;
     padding: 5px;
-
 }
 
-
-
-.reviews{
-    display:grid;
+.reviews {
+    display: grid;
     width: 100%;
     height: auto;
     grid-template-columns: 5fr 7fr 6fr;
     grid-template-rows: 4fr 3fr 3fr;
     justify-content: center;
-    
 }
 
-.reviews p{
+.reviews p {
     display: flex;
     flex-wrap: wrap;
-    border:3px solid #3f6c51;
-    
-    
+    border: 3px solid #3f6c51;
 }
 
-.review1{
-    background-color: rgb(251, 101, 181);
+.review1 {
+    background-color: #fb65b5;
     color: black;
 }
-.review2{
+
+.review2 {
     background-color: #f3fb65;
     color: black;
 }
-.review3{
-    background-color: rgb(158, 255, 129);
-    color: black;
-}
-.review4{
-    background-color: rgb(157, 224, 255);
+
+.review3 {
+    background-color: #9eff81;
     color: black;
 }
 
-.orange{
-    color:#f17518;
+.review4 {
+    background-color: #9de0ff;
+    color: black;
 }
 
+.orange {
+    color: #f17518;
+}
 
 .info {
     display: flex;
@@ -157,12 +144,10 @@ li:hover {
     border: 3px solid black;
     font-family: "Slabo 13px";
     padding: 15px;
-
-
 }
 
 .j1-img {
-    background-image: url("images/bag2.jpg");
+    background-image: url("../images/bag2.jpg");
     background-position: center;
     height: 40%;
     width: 100%;
@@ -178,7 +163,7 @@ li:hover {
 }
 
 .l1-img {
-    background-image: url("images/bag1.jpg");
+    background-image: url("../images/bag1.jpg");
     background-position: center;
     height: 40%;
     width: 100%;
@@ -194,7 +179,7 @@ li:hover {
 }
 
 .t1-img {
-    background-image: url("images/apple.jpg");
+    background-image: url("../images/apple.jpg");
     background-position: top;
     height: 40%;
     width: 100%;
@@ -208,28 +193,28 @@ li:hover {
     align-items: center;
 }
 
-.jbutton, .lbutton, .tbutton{
-    display:flex;
+.jbutton,
+.lbutton,
+.tbutton {
+    display: flex;
     margin-top: 15px;
     width: 100%;
     border: 1px solid black;
     justify-content: center;
     font-weight: 600;
-    
 }
 
-.footer{
+.footer {
     display: flex;
     width: 100%;
-    height:175px;
+    height: 175px;
     background-color: #3f6c51;
     color: #f17518;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-top: 30px;
     padding: 0;
 }
-
 
 .material-icons.md-100 {
 
@@ -237,19 +222,17 @@ li:hover {
     white-space: normal;
     position: relative;
     display: block;
-
 }
 
-.social-networks{
+.social-networks {
     display: flex;
     font-size: 3em;
-    gap:3vw;
-    
+    gap: 3vw;
 }
 
-
-
-.jform-background, .lform-background, .tform-background{
+.jform-background,
+.lform-background,
+.tform-background {
     display: flex;
     height: 1000px;
     width: 100%;
@@ -259,91 +242,85 @@ li:hover {
     justify-content: center;
 }
 
-    .tform-background::before{
+.tform-background::before {
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     content: "";
     position: absolute;
-    background-image: url("images/apple.jpg");
-    background-size:cover;
+    background-image: url("../images/apple.jpg");
+    background-size: cover;
     background-position: center;
     opacity: .5;
-    
 }
 
-.jform-background::before{
+.jform-background::before {
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     content: "";
     position: absolute;
-    background-image: url("images/bag2.jpg");
-    background-size:cover;
+    background-image: url("../images/bag2.jpg");
+    background-size: cover;
     background-position: center;
     opacity: .5;
-    
 }
 
-.lform-background::before{
+.lform-background::before {
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     content: "";
     position: absolute;
-    background-image: url("images/bag1.jpg");
-    background-size:cover;
+    background-image: url("../images/bag1.jpg");
+    background-size: cover;
     background-position: center;
     opacity: .5;
-    
+
 }
-    
 
-
-.signup-form{
+.signup-form {
     display: flex;
     position: relative;
     flex-direction: column;
     height: 80%;
     width: 50%;
     border: 3px solid black;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    margin-top:30px;
-    /* box-sizing: border-box; */
-    background: linear-gradient(145deg,rgba(79, 185, 122, 0.502),rgba(241, 117, 24, .9) );
-
-
+    margin-top: 30px;
+    background: linear-gradient(145deg, #4fb97a80, #f17518e6);
 }
 
-.form-input{
+.form-input {
     display: flex;
     flex-wrap: wrap;
 }
-.detail-input{
+
+.detail-input {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: left;
 
 }
 
 @media screen and (max-width:450px) {
-     .nav-items li{
+    .nav-items li {
         font-size: smaller;
         text-decoration: underline;
-        width:50px;
-        padding:2px;
+        width: 50px;
+        padding: 2px;
         margin: 2px;
-        gap:0;
-        border: 0;}
-        
-        .signup-form{
-            height:100%;
-            width:100%;
-        }
+        gap: 0;
+        border: 0;
+    }
 
-     }
+    .signup-form {
+        height: 100%;
+        width: 100%;
+    }
 
+}
