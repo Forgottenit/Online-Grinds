@@ -226,8 +226,10 @@ li:hover {
     color: #f17518;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 0;
+    position: relative;
+    bottom: 0;
 }
 
 /* Social Network link styling */
@@ -295,10 +297,10 @@ li:hover {
 /* Sign up form background style */
 .signup-form {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: column;
     height: 80%;
-    width: 50%;
+    width: 70%;
     border: 3px solid #000000;
     justify-content: center;
     align-items: center;
@@ -325,7 +327,6 @@ li:hover {
         text-decoration: underline;
         width: 50px;
         padding: 2px;
-        margin: 2px;
         gap: 0;
         border: 0;
     }
@@ -343,5 +344,5 @@ li:hover {
     width: 100%;
     text-align: center;
     border:10px solid #f17518;
-    border-left: 0;
+    
 }
