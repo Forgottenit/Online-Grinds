@@ -3,8 +3,8 @@
 body {
     padding: 0;
     margin: 0;
-    border-top: solid 0.5em #f4a162;
-    border-left: solid 0.5em #f4a162;
+    border-top: solid 8px #f4a162;
+    border-left: solid 8px #f4a162;
 
 }
 
@@ -12,7 +12,7 @@ body {
     color: #3f6c51;
     font-size: 5vw;
     font-family: "Slabo 13px";
-    letter-spacing: .5em;
+    letter-spacing: 8px;
     display: flex;
     justify-content: left;
     width: 100%;
@@ -25,8 +25,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    gap: 1em;
-    padding: 1em;
+    gap: 16px;
+    padding: 16px;
 }
 
 li,
@@ -37,7 +37,7 @@ a {
 }
 
 .nav-items li {
-    padding: 1em;
+    padding: 16px;
     width: 120px;
     border: 1px solid #f17518;
 }
@@ -100,22 +100,22 @@ li:hover {
 
 .review1 {
     background-color: #fb65b5;
-    color: black;
+    color: #000000;
 }
 
 .review2 {
     background-color: #f3fb65;
-    color: black;
+    color: #000000;
 }
 
 .review3 {
     background-color: #9eff81;
-    color: black;
+    color: #000000;
 }
 
 .review4 {
     background-color: #9de0ff;
-    color: black;
+    color: #000000;
 }
 
 .orange {
@@ -125,7 +125,7 @@ li:hover {
 .sign-up-info{
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 32px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -141,7 +141,7 @@ li:hover {
     justify-items: center;
     justify-content: center;
     color: #3f6c51;
-    border: 3px solid black;
+    border: 3px solid #000000;
     font-family: "Slabo 13px";
     padding: 15px;
 }
@@ -199,7 +199,7 @@ li:hover {
     display: flex;
     margin-top: 15px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #000000;
     justify-content: center;
     font-weight: 600;
 }
@@ -226,7 +226,7 @@ li:hover {
 
 .social-networks {
     display: flex;
-    font-size: 3em;
+    font-size: 48px;
     gap: 3vw;
 }
 
@@ -252,7 +252,7 @@ li:hover {
     background-image: url("../images/apple.jpg");
     background-size: cover;
     background-position: center;
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .jform-background::before {
@@ -265,7 +265,7 @@ li:hover {
     background-image: url("../images/bag2.jpg");
     background-size: cover;
     background-position: center;
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .lform-background::before {
@@ -278,7 +278,7 @@ li:hover {
     background-image: url("../images/bag1.jpg");
     background-size: cover;
     background-position: center;
-    opacity: .5;
+    opacity: 0.5;
 
 }
 
@@ -288,7 +288,7 @@ li:hover {
     flex-direction: column;
     height: 80%;
     width: 50%;
-    border: 3px solid black;
+    border: 3px solid #000000;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
