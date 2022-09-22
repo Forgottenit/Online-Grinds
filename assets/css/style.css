@@ -2,11 +2,10 @@
 
 body {
     padding: 0;
-    margin: 0;
-    border-top: solid 8px #f4a162;
-    border-left: solid 8px #f4a162;
+ 
 
 }
+
 /* Font Styling for Header */
 #logo {
     color: #3f6c51;
@@ -20,6 +19,7 @@ body {
     margin: 8px;
     text-decoration: underline;
 }
+
 /* Navigation items */
 .nav-items {
     display: flex;
@@ -28,6 +28,7 @@ body {
     gap: 16px;
     padding: 16px;
 }
+
 /* List styling and anchor styling */
 li,
 a {
@@ -35,12 +36,14 @@ a {
     color: #f17518;
     list-style: none;
 }
+
 /* nav list styling */
 .nav-items li {
     padding: 16px;
     width: 120px;
     border: 1px solid #f17518;
 }
+
 /* Nav animation on hover */
 li:hover {
     color: #f17518;
@@ -49,6 +52,7 @@ li:hover {
     justify-content: right;
     cursor: pointer;
 }
+
 /* Main image on landing page */
 .hero-image {
     background-image: url("../images/download.jpg");
@@ -61,6 +65,7 @@ li:hover {
     display: flex;
     font-size: 4vw;
 }
+
 /* Text over hero image when hovered */
 .hero-image p {
     font-family: "Slabo 13px";
@@ -74,6 +79,7 @@ li:hover {
     opacity: 1;
     transform: scale(1.9);
 }
+
 /* Ethos, testimonial and sign up section styling */
 .ethos,
 .testimonials, .sign-up {
@@ -82,6 +88,7 @@ li:hover {
     gap: 1px;
     padding: 5px;
 }
+
 /* Testimonial grid display */
 .reviews {
     display: grid;
@@ -121,6 +128,7 @@ li:hover {
 .orange {
     color: #f17518;
 }
+
 /* sign up information styling */
 .sign-up-info{
     display: flex;
@@ -130,6 +138,7 @@ li:hover {
     align-items: center;
     align-content: center;
 }
+
 /* Sign up boxes styling */
 .j1,
 .l1,
@@ -145,6 +154,7 @@ li:hover {
     font-family: "Slabo 13px";
     padding: 15px;
 }
+
 /* Junior cert sign up background image */
 .j1-img {
     background-image: url("../images/bag2.jpg");
@@ -161,6 +171,7 @@ li:hover {
     align-items: center;
     margin-top: 10px;
 }
+
 /* Leaving cert sign up background image */
 .l1-img {
     background-image: url("../images/bag1.jpg");
@@ -177,6 +188,7 @@ li:hover {
     align-items: center;
     margin-top: 10px;
 }
+
 /* Teacher sign up background image */
 .t1-img {
     background-image: url("../images/apple.jpg");
@@ -192,6 +204,7 @@ li:hover {
     justify-content: center;
     align-items: center;
 }
+
 /* Sign up button link styling */
 .jbutton,
 .lbutton,
@@ -203,6 +216,7 @@ li:hover {
     justify-content: center;
     font-weight: 600;
 }
+
 /* Footer styling */
 .footer {
     display: flex;
@@ -222,6 +236,7 @@ li:hover {
     font-size: 48px;
     gap: 3vw;
 }
+
 /* Form background sizing */
 .jform-background,
 .lform-background,
@@ -234,6 +249,7 @@ li:hover {
     position: relative;
     justify-content: center;
 }
+
 /* Teacher form background transparancy */
 .tform-background::before {
     top: 0;
@@ -247,6 +263,7 @@ li:hover {
     background-position: center;
     opacity: 0.5;
 }
+
 /* Junior form background transparancy */
 .jform-background::before {
     top: 0;
@@ -260,6 +277,7 @@ li:hover {
     background-position: center;
     opacity: 0.5;
 }
+
 /* Leaving form background transparancy */
 .lform-background::before {
     top: 0;
@@ -272,8 +290,8 @@ li:hover {
     background-size: cover;
     background-position: center;
     opacity: 0.5;
-
 }
+
 /* Sign up form background style */
 .signup-form {
     display: flex;
@@ -299,6 +317,7 @@ li:hover {
     justify-content: left;
 
 }
+
 /* Media queries for screens 450px width and below */
 @media screen and (max-width:450px) {
     .nav-items li {
