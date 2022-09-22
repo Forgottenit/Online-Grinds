@@ -324,3 +324,10 @@ li:hover {
     }
 
 }
+.form-submission{
+    background: linear-gradient(145deg, #4fb97a80, #f17518e6);
+    width: 100%;
+    text-align: center;
+    border:10px solid #f17518;
+    border-left: 0;
+}
