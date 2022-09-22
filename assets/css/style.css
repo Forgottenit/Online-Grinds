@@ -242,7 +242,7 @@ li:hover {
 /* Form background sizing */
 .jform-background,
 .lform-background,
-.tform-background {
+.tform-background, .cform-background {
     display: flex;
     height: 1000px;
     width: 100%;
@@ -254,6 +254,19 @@ li:hover {
 
 /* Teacher form background transparancy */
 .tform-background::before {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    background-image: url("../images/apple.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.cform-background::before {
     top: 0;
     bottom: 0;
     right: 0;
@@ -309,6 +322,20 @@ li:hover {
     background: linear-gradient(145deg, #4fb97a80, #f17518e6);
 }
 
+.cform{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 80%;
+    width: 70%;
+    border: 3px solid #000000;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    background: linear-gradient(145deg, #4fb97a80, #f17518e6);
+}
+
 .form-input {
     display: flex;
     flex-wrap: wrap;
@@ -341,10 +368,3 @@ li:hover {
 }
 
 /* confirmation box styling */
-.form-submission{
-    background: linear-gradient(145deg, #4fb97a80, #f17518e6);
-    width: 100%;
-    text-align: center;
-    
-    
-}
