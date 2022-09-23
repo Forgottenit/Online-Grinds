@@ -1,4 +1,5 @@
-# Welcome to Doctrina(LOGO)
+# Welcome to [Doctrina Online Grinds](https://8000-forgottenit-onlinegrind-o6uw4121s21.ws-eu67.gitpod.io/)
+
 
 # Goal
 The goal of this is website is to provide an Online Grinds Website for both Junior and Leaving Certificate Irish students. There is also a section for Teachers to sign up to provide grinds. It has an about section on the landing page with testimonials, then 3 sign up forms, one for Junior Cert subjects, one for Leaving Cert subjects and one for Teachers to submit their Cv
@@ -58,12 +59,12 @@ The website was built with a Breakpoint of 450px, below this point the Nav menu 
 ### Navigation Bar
 -	The Nav Bar includes links to form submissions, the style is changed below 450px width as to give a neater view on smaller screens. It contains a Home link, links to Junior Cert and Leaving Cert option submission forms and a link for Teachers to sign up to a apply to be Tutors for the Website.
 ### Landing page
-#### Ethos Section
-		This contains information about the Site
+### Ethos Section
+This contains information about the Site
 
-#### Testimonials
-		This area contains reviews of the service, as this is for demonstrative purposes, the reviews are created for that purpose.
-#### Sign-up Section
+### Testimonials
+This area contains reviews of the service, as this is for demonstrative purposes, the reviews are created for that purpose.
+### Sign-up Section
 This contains three different options for sign up, one for Junior Cert Cycle students, one for Leaving Cert and one for Teachers, each link leads to a different form submission
 ### Footer
 This contains links to Social Media sites that open in a new page, namely, Twitter, Facebook, YouTube and Instagram. This links all open on a new page.
@@ -113,4 +114,4 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 -	CodeInstitute
 -	FontAwesome
 -	W3Schools.com
--	IStockPhoto.com for Images
+-	IStockPhoto.com and Pixabay.com for Images
