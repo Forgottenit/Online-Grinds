@@ -55,7 +55,7 @@ li:hover {
 
 /* Main image on landing page */
 .hero-image {
-    background-image: url("../images/download.jpg");
+    background-image: url("../images/istockphoto-1331436359-612x612.jpg");
     background-position: center;
     background-size: cover;
     filter: brightness(1.2);
