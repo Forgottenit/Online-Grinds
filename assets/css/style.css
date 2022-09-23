@@ -29,6 +29,10 @@ body {
     padding: 16px;
 }
 
+.active{
+    text-decoration: underline;
+}
+
 /* List styling and anchor styling */
 li,
 a {
