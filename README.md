@@ -90,7 +90,7 @@ Junior Cert, Leaving Cert and Teacher Submission forms. Each has a background, c
 <img src="Docs/2022-09-23 (7).png" style = height:150px;>
 
 # Future Features 
--	Forms to submit to an accessible database
+-	Forms to submit to an accessible database that could be collected
 -	Examined the option of having a "Burger" menu on the Nav Bar, but I felt I would be more comfortable implementing this with JavaScript
 
 
@@ -98,30 +98,38 @@ Junior Cert, Leaving Cert and Teacher Submission forms. Each has a background, c
 
  
 # Technologies used
-- Languages
-- HTML and CSS
+## Languages
+- HTML for structuring website
+- CSS for styling website
 
-# Tools
-- GitPod
+## Tools
+- GitPod and GitHub for Coding and Hosting the Website
+- CodeInstitute for Mentors and Tutors
 - LightHouse
-- https://validator.w3.org/
+- https://validator.w3.org/ for validating site
  
 # Testing
 -	HTML
 No errors were returned when passing through the official W3C validator
 - CSS
 No errors were found when passing through the official (Jigsaw) validator
- 
-# Unfixed Bugs
 
+## Lighthouse
+<img src= "Docs/Lighthouse.png">
  
+# General Testing
+
+- After site was ran through w3 validators, the site was tested for functionality.
+- Functionality testing involved ensuring all links were active, that all form submission sections that were set to "required" actually required input and that once forms were submitted that a confirmation message was shown
+- Testing also involved general lay-out testing of alternate design choices and images before the ones used were settled upon.
+- Finally, testing also involved demonstration of the active site to mt CodeInstitute Mentor 
 # Deployment
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
 -	Navigate to the repository on github and click 'Settings'.
 -	Then select 'Pages' on the side navigation.
 -	Select the 'None' dropdown, and then click 'master'.
 -	Click on the 'Save' button.
--	Now the website is now live on https://sam-timmins.github.io/T4Tri-triathlon-club/
+-	Now the website is now live on  https://forgottenit.github.io/Online-Grinds/
 -	If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 
